@@ -1,4 +1,4 @@
-import Button from './src/components/Button';
+import Button, { ButtonCalled } from './src/components/Button';
 import Text from './src/components/Text';
 
 class Test {
@@ -11,4 +11,4 @@ class Test {
   }
 }
 
-export { Test, Button, Text };
+export { Test, Button, Text, ButtonCalled };
